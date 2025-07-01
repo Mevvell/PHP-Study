@@ -4,3 +4,8 @@ $num = 150;
 
 // TODO: ここにコードを追記
 echo $num;
+if ($num >= 100) {
+    echo "大きな数です\n";
+} else {
+    echo "小さな数です\n";
+}
